@@ -6,7 +6,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Clément Salaün",
+            "name": "Clement Salaun",
             "email": "clem@32b6.com",
             "homepage": "http://32b6.com",
             "role": "Developer"
@@ -21,12 +21,12 @@
     "require": {
         "php": ">=5.4.0",
         "laravel/framework": ">=5.0.0",
-        "uploadcare/uploadcare-php": "dev-master"
+        "uploadcare/uploadcare-php": ">=v1.4.1"
     },
     "autoload": {
         "psr-0": {
             "Altitude\\LaravelUploadcare": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
