@@ -1,8 +1,8 @@
 {
-    "name": "dimaninc/laravel-uploadcare",
+    "name": "altitude/laravel-uploadcare",
     "description": "Laravel Service for Uploadcare",
     "keywords": ["laravel", "uploadcare"],
-    "homepage":"http://github.com/dimaninc/laravel-uploadcare",
+    "homepage":"http://github.com/altitude/laravel-uploadcare",
     "license": "MIT",
     "authors": [
         {
@@ -28,5 +28,5 @@
             "Altitude\\LaravelUploadcare": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
