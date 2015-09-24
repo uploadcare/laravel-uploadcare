@@ -21,7 +21,7 @@
     "require": {
         "php": ">=5.4.0",
         "laravel/framework": ">=5.0.0",
-        "uploadcare/uploadcare-php": ">=v1.4.0"
+        "uploadcare/uploadcare-php": "dev-master"
     },
     "autoload": {
         "psr-0": {
