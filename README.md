@@ -8,6 +8,7 @@ First, add this to your `composer.json` file
 
 ```js
 "require": {
+    "illuminate/html": "5.*",
     "altitude/laravel-uploadcare": "~1.2"
 }
 ```
@@ -29,12 +30,15 @@ Finally, add the service provider and alias in your `config/app.php`
 'providers' => array(
     ...
 
+    Illuminate\Html\HtmlServiceProvider::class,
     Altitude\LaravelUploadcare\LaravelUploadcareServiceProvider::class,
 );
 
 'aliases' => array(
     ...
 
+    'Form' => Illuminate\Html\FormFacade::class,
+    'HTML' => Illuminate\Html\HtmlFacade::class,
     'Uploadcare' => Altitude\LaravelUploadcare\Facades\Uploadcare::class,
 );
 ```
@@ -70,10 +74,10 @@ Route::post('/demo', function(){
 </head>
 <body>
     <form method="POST" action="/demo">
-        {{Form::uploadcare('image', null, array('data-crop' => '3:4'))}}
+        {!! Form::uploadcare('image', null, array('data-crop' => '3:4')) !!}
         <input type="submit">
     </form>
-    {{Uploadcare::scriptTag()}}
+    {!! Uploadcare::scriptTag() !!}
 </body>
 </html>
 ```
