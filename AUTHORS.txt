@@ -1,0 +1,6 @@
+# git log --format='%aN <%aE>' | sort -u
+
+Altitude <salaun.clement@gmail.com>
+Dmitry Mukhin <dm@uploadcare.com>
+Dmitry Petrov <dimaninc@gmail.com>
+Elijah <ilya@uploadcare.com>
