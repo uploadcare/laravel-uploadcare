@@ -84,6 +84,22 @@ Route::post('/demo', function(){
 
 For more information, please check the [offical documentation](https://github.com/uploadcare/uploadcare-php)
 
+## Contributors
+
+- [@dimaninc](https://github.com/dimaninc)
+- [@altitude](https://github.com/altitude)
+- [@dmitry-mukhin](https://github.com/dmitry-mukhin)
+
+## Security issues
+
+If you think you ran into something in Uploadcare libraries
+which might have security implications, please hit us up at
+[bugbounty@uploadcare.com](mailto:bugbounty@uploadcare.com)
+or Hackerone.
+
+We'll contact you personally in a short time to fix an issue
+through co-op and prior to any public disclosure.
+
 ## License
 
 [MIT license](http://opensource.org/licenses/MIT)
